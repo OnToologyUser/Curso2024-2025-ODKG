@@ -63,7 +63,7 @@ mappings:
   metric:
     sources:
       - stationsJSON
-    s: mAIRres:$(CODIGO)#$(MEDIDAS.label)
+    s: mAIRres:Station/$(CODIGO)#$(MEDIDAS.label)
     po:
       - [a, mAIR:AirQualityMetric]
       - [a, ssn:Property]
